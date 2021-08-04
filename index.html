@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Reading</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Summer 2021 Reading</h1>
+        <nav>
+            <ul>
+                <li>
+                <li>
+                    <a href="#figcaption">My reading list</a>
+                </li>
+                    <a href="#about">Contact form</a>
+                </li>
+                <li>
+                    <a href="#contact-form">Chat with me!</a>
+                </li>
+            </ul>
+        </nav>
+      </header>
+
+    <main>
+    <!-- Image with a caption --> 
+    <figure>
+        <img src="https://media.newyorker.com/photos/600b18a34f66897f9daa4aa5/master/w_2560%2Cc_limit/cover-STORYimage-drop_ejaita_interiors.jpg" alt="Image of the New Yorker magazine" style="width:40%" >
+        <figcaption class="figcaption" id="figcaption">The New Yorker's on my reading list this summer.</figcaption>
+    </figure>
+
+    <br>
+    <br>
+
+    <!-- Collect visitor's contact information -->
+    <h2 class="about" id="about">What are you reading this summer?</h2>
+    <section class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      
+          <label for="email">Email address</label>
+          <textarea id="email" name="email" placeholder="Email address" style="height:60px"></textarea>
+
+          <label for="books">Books or magazines</label>
+          <input type="text" id="info" name="info" placeholder="What you're reading this summer">
+      
+          <input type="send" value="Send">
+      
+        </form>
+    </section>
+
+    </main>
+
+    <!-- Contact form -->
+    <section>
+        <h3 class="contact-form" id="contact-form">Contact form</h3>
+        <address>
+        Contact the author at <a href="mailto:candice.yin.wu@gmail.com">candice.ying.wu@gmail.com</a>.
+        </address>
+    </section>
+
+<br>
+<br>
+<br>
+
+    <footer id="footer">
+        <p>Summer 2021 reading jams</p>
+    </footer>
+  
+</body>
+</html>
